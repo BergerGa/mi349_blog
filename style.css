@@ -1,10 +1,6 @@
 html{
     background: #dde6d9;
 }
-img{
-    max-width: 50%;
-    height: auto;
-}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -42,13 +38,33 @@ p{
     top: 0;
 }
 
-.MyPhoto{
-    border-radius: 50%;
-    width: 150px;
+.profile{
+    border-radius: 15px;
+    width: 250px;
     height: auto;
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
     transition: all ease-in-out;
 }
-.Spidercam{
-    border-radius: 50%;
+.camera{
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out;
+}
+.conference{
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out;
+}
+
+.navigation{
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 120px;
+    background: #dde6d9;
+    padding: 5px;
 }
