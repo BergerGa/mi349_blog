@@ -26,8 +26,29 @@ p{
 
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog-post{
    border-bottom: 1px dotted #ccc; 
+}
+
+#Newsletter {
+    background: #dde6d9;
+    padding: 10px;
+    margins: 0px;
+    position: sticky;
+    top: 0;
+}
+
+.MyPhoto{
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out;
+}
+.Spidercam{
+    border-radius: 50%;
 }
