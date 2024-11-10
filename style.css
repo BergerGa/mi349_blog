@@ -95,3 +95,9 @@ p{
     top: 0;
     right: 0;
 }
+
+#Contact{ 
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
