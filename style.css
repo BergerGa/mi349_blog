@@ -8,26 +8,50 @@ body{
     padding: 40px;
     color: #242424;
     border-top: 10px solid #242424;
-   background-color:#fff; 
+   background-color:#f6f4f4; 
 }
+
+header{
+    background: #f6f4f4;
+    text-align: center;
+}
+
+section {
+    background: #c9c8c8;
+    border-radius: 15px;
+
+}
+
+article {
+    background: #dde6d9;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+}
+
 
 h1{
     font-size: 3em;
     margin: 0;
 }
 
+
+
 p{
     line-height: 1.4em;
 }
 
 #blog {
-    border-top: 1px dotted #ccc;
+    padding: 10px;
+
+    border-top: 5px dotted #ccc;
     display: flex;
-    flex-direction: column;
+
 }
 
 .blog-post{
-   border-bottom: 1px dotted #ccc; 
+   border-bottom: 5px dotted #ccc; 
+
 }
 
 #Newsletter {
@@ -44,6 +68,9 @@ p{
     height: auto;
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
     transition: all ease-in-out;
+    float: left;
+    margin: 10px;
+    margin-top: 30px;
 }
 .camera{
     border-radius: 15px;
@@ -60,11 +87,11 @@ p{
     transition: all ease-in-out;
 }
 
-.navigation{
-    position: sticky;
-    top: 0;
-    right: 0;
+#navigation{
     width: 120px;
     background: #dde6d9;
     padding: 5px;
+    position: sticky;
+    top: 0;
+    right: 0;
 }
