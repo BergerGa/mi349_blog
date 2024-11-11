@@ -106,9 +106,9 @@ p{
     padding: 5px;
     margin: 10px;
     position: sticky;
-    left: 0px;
+    right: 0px;
     top: 30px;
-    height: 100px;
+    height: 150px;
     z-index: 100;
 }
 
