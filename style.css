@@ -61,6 +61,7 @@ p{
     background: #dde6d9;
     padding: 10px;
     margin: 0px;
+    border-radius: 15px;  
     position: sticky;
     top: 0px;
 }
@@ -120,3 +121,4 @@ p{
     border-radius: 15px;
     padding: 5px;
 }
+
